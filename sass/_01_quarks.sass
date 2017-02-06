@@ -1,5 +1,5 @@
 
-.body
+body
  background-color: $light-gray
 
 .row, .column, .columns
@@ -12,6 +12,8 @@
 .right
  float: right
 
+.clear
+ clear: both
 
 .right-text
  text-align: right
@@ -21,6 +23,11 @@
 
 .bold
  font-weight: $bold
+
+.type-gg
+ +type($gg, $kg)
+ padding: 1rem 0
+
 
 .type-g
  +type($g, $kg)
@@ -46,6 +53,9 @@
  font-weight: $regular
  font-family: $text
  line-height: 1.5
+
+.dark-purple
+ color: $dark-purple
 
 .purple
  color: $purple
