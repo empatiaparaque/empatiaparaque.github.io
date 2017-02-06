@@ -1,0 +1,69 @@
+
+.body
+ background-color: $light-gray
+
+.row, .column, .columns
+ box-sizing: border-box !important
+
+.row
+ &:first-child
+  margin-top: 0
+
+.right
+ float: right
+
+
+.right-text
+ text-align: right
+
+.light
+ font-weight: $light
+
+.bold
+ font-weight: $bold
+
+.type-g
+ +type($g, $kg)
+ padding: 1rem 0
+
+.type-m
+ +type($m, $ks)
+ line-height: 1.5
+ padding: 0.5rem 0
+
+.type-s
+ +type($s, $ks)
+ line-height: 1.5
+ padding: 0.25rem 0
+
+.type-ss
+ +type($ss, $ks)
+ line-height: 1.2
+ padding: 0.25rem 0
+
+.type-p
+ +type($p,$ks)
+ font-weight: $regular
+ font-family: $text
+ line-height: 1.5
+
+.purple
+ color: $purple
+
+.white
+ color: $white
+
+.pink
+ color: $pink
+
+.blue
+ color: $blue
+
+.no-padding
+ padding: 0
+
+.padding-title-m
+ +padding-title($m, $ks)
+
+.padding-title-g
+ +padding-title($g, $kg)

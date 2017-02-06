@@ -1,0 +1,122 @@
+=h-align
+ margin-left: auto
+ margin-right: auto
+
+=v-align
+ position: relative
+ top: 50%
+ -webkit-transform: translateY(-50%)
+ -ms-transform: translateY(-50%)
+ transform: translateY(-50%)
+
+=transition
+ transition: 0.3s linear 0s
+
+=overflow
+ overflow: auto
+
+=border-radius($radius)
+ -webkit-border-radius: $radius
+ -moz-border-radius: $radius
+ -ms-border-radius: $radius
+ border-radius: $radius
+
+=size($width, $height)
+ width: $width
+ height: $height
+
+=font($size,$font, $weight)
+ font-family: $font
+ font-size: $size
+ font-weight: $weight
+
+=bimg($url, $size, $position)
+ background-image: url($url)
+ background-size: $size
+ background-position: $position
+ background-repeat: no-repeat
+
+=m-2-0
+ margin: 2rem 0
+
+=m-2-auto
+ margin: 2rem auto
+
+=p-05
+ padding: 0.5rem
+
+=h-2
+ height: 2rem
+
+=h-4
+ height: 4rem
+
+=h-6
+ height: 6rem
+
+=ml-0
+ margin-left: 0 !important
+
+=ml-05
+ margin-left: 0.5rem
+
+=ml-1
+ margin-left: 1rem
+
+=ml-2
+ margin-left: 2rem
+
+=ml-4
+ margin-left: 4rem
+
+=ml-6
+ margin-left: 6rem
+
+=pd-2
+ padding: 2rem 0
+
+=pd-4
+ padding: 4rem 0
+
+=pd-6
+ padding: 6rem 0
+
+=vs-2
+ margin: 6rem auto
+ &:last-child
+  margin-bottom: 0
+
+=vs-4
+ margin: 4rem auto
+ &:last-child
+  margin-bottom: 0
+
+=vs-6
+ margin: 2rem auto
+ &:last-child
+  margin-bottom: 0
+
+
+//NOVA ESCALA
+
+html
+ font-size: -webkit-calc(0.25vw + 18px)
+
+=type($t-max, $k)
+ $t-min: $t-max*$k
+ font-family: $display
+ font-size: $t-min
+ line-height: 1.1
+ padding-bottom: 1rem
+ +breakpoint(medium up)
+  font-size: calc(#{$t-min} + #{strip-unit($t-max - $t-min)}*(100vw - #{$medium-breakpnt})/#{strip-unit($xlarge-breakpnt - $medium-breakpnt)})
+ +breakpoint(xlarge)
+  font-size: $t-max
+
+=padding-title($t-max, $k)
+ $t-min: $t-max*$k
+ padding-top: $t-min + 1rem
+ +breakpoint(medium up)
+  padding-top: calc(#{$t-min} + #{strip-unit($t-max - $t-min)}*(100vw - #{$medium-breakpnt})/#{strip-unit($xlarge-breakpnt - $medium-breakpnt)} + 1rem)
+ +breakpoint(xlarge)
+  padding-top: $t-max + 1rem

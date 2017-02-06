@@ -1,0 +1,42 @@
+section
+ padding: 2rem 0
+ margin-top: 2rem
+
+.bg-dark
+ background-color: $dark-purple
+
+.column, .columns
+ &:first-child
+  padding-left: 0 !important
+ &:last-child
+  padding-right: 0 !important
+nav
+ background-color: $white
+ box-shadow: 0 0.5rem 2rem $black-20
+ padding: 1rem 0
+ margin-top: 2rem
+ li
+  margin-left: 2rem
+  &:first-child
+   margin-left: 0
+ a
+  text-transform: uppercase
+  color: $purple
+  font-size: $ss
+  font-weight: $bold
+  padding: 0.2rem
+  &:hover
+   color: $pink
+   border-bottom: 1px $pink solid
+
+
+.square-content
+ text-transform: uppercase
+ color: $white
+ font-size: $ss
+ font-weight: $semibold
+ text-align: center
+
+.intro
+ +bimg('../img/intro.png', cover, center)
+ margin-top: 0
