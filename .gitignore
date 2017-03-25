@@ -2,3 +2,5 @@
 *.scssc
 
 *.sassc
+
+_site/
