@@ -2084,33 +2084,39 @@ body {
 .row:first-child {
   margin-top: 0;
 }
+@media screen and (max-width: 39.9375em) {
+  /* line 8, ../sass/_01_quarks.sass */
+  .row {
+    padding: 0 1rem;
+  }
+}
 
-/* line 12, ../sass/_01_quarks.sass */
+/* line 14, ../sass/_01_quarks.sass */
 .right {
   float: right;
 }
 
-/* line 15, ../sass/_01_quarks.sass */
+/* line 17, ../sass/_01_quarks.sass */
 .clear {
   clear: both;
 }
 
-/* line 18, ../sass/_01_quarks.sass */
+/* line 20, ../sass/_01_quarks.sass */
 .right-text {
   text-align: right;
 }
 
-/* line 21, ../sass/_01_quarks.sass */
+/* line 23, ../sass/_01_quarks.sass */
 .light {
   font-weight: 300;
 }
 
-/* line 24, ../sass/_01_quarks.sass */
+/* line 26, ../sass/_01_quarks.sass */
 .bold {
   font-weight: 700;
 }
 
-/* line 27, ../sass/_01_quarks.sass */
+/* line 29, ../sass/_01_quarks.sass */
 .type-gg {
   font-family: "Signika";
   font-size: 1.458rem;
@@ -2119,19 +2125,19 @@ body {
   padding: 1rem 0;
 }
 @media screen and (min-width: 40em) {
-  /* line 27, ../sass/_01_quarks.sass */
+  /* line 29, ../sass/_01_quarks.sass */
   .type-gg {
     font-size: calc(1.458rem + 0.972*(100vw - 40rem)/35);
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 27, ../sass/_01_quarks.sass */
+  /* line 29, ../sass/_01_quarks.sass */
   .type-gg {
     font-size: 2.43rem;
   }
 }
 
-/* line 32, ../sass/_01_quarks.sass */
+/* line 34, ../sass/_01_quarks.sass */
 .type-g {
   font-family: "Signika";
   font-size: 1.17rem;
@@ -2140,19 +2146,19 @@ body {
   padding: 1rem 0;
 }
 @media screen and (min-width: 40em) {
-  /* line 32, ../sass/_01_quarks.sass */
+  /* line 34, ../sass/_01_quarks.sass */
   .type-g {
     font-size: calc(1.17rem + 0.78*(100vw - 40rem)/35);
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 32, ../sass/_01_quarks.sass */
+  /* line 34, ../sass/_01_quarks.sass */
   .type-g {
     font-size: 1.95rem;
   }
 }
 
-/* line 36, ../sass/_01_quarks.sass */
+/* line 38, ../sass/_01_quarks.sass */
 .type-m {
   font-family: "Signika";
   font-size: 1.248rem;
@@ -2162,19 +2168,19 @@ body {
   padding: 0.5rem 0;
 }
 @media screen and (min-width: 40em) {
-  /* line 36, ../sass/_01_quarks.sass */
+  /* line 38, ../sass/_01_quarks.sass */
   .type-m {
     font-size: calc(1.248rem + 0.312*(100vw - 40rem)/35);
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 36, ../sass/_01_quarks.sass */
+  /* line 38, ../sass/_01_quarks.sass */
   .type-m {
     font-size: 1.56rem;
   }
 }
 
-/* line 41, ../sass/_01_quarks.sass */
+/* line 43, ../sass/_01_quarks.sass */
 .type-s {
   font-family: "Signika";
   font-size: 1rem;
@@ -2184,19 +2190,19 @@ body {
   padding: 0.25rem 0;
 }
 @media screen and (min-width: 40em) {
-  /* line 41, ../sass/_01_quarks.sass */
+  /* line 43, ../sass/_01_quarks.sass */
   .type-s {
     font-size: calc(1rem + 0.25*(100vw - 40rem)/35);
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 41, ../sass/_01_quarks.sass */
+  /* line 43, ../sass/_01_quarks.sass */
   .type-s {
     font-size: 1.25rem;
   }
 }
 
-/* line 46, ../sass/_01_quarks.sass */
+/* line 48, ../sass/_01_quarks.sass */
 .type-ss {
   font-family: "Signika";
   font-size: 0.8rem;
@@ -2206,19 +2212,19 @@ body {
   padding: 0.25rem 0;
 }
 @media screen and (min-width: 40em) {
-  /* line 46, ../sass/_01_quarks.sass */
+  /* line 48, ../sass/_01_quarks.sass */
   .type-ss {
     font-size: calc(0.8rem + 0.2*(100vw - 40rem)/35);
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 46, ../sass/_01_quarks.sass */
+  /* line 48, ../sass/_01_quarks.sass */
   .type-ss {
     font-size: 1rem;
   }
 }
 
-/* line 51, ../sass/_01_quarks.sass */
+/* line 53, ../sass/_01_quarks.sass */
 .type-p {
   font-family: "Signika";
   font-size: 0.88rem;
@@ -2229,77 +2235,77 @@ body {
   line-height: 1.5;
 }
 @media screen and (min-width: 40em) {
-  /* line 51, ../sass/_01_quarks.sass */
+  /* line 53, ../sass/_01_quarks.sass */
   .type-p {
     font-size: calc(0.88rem + 0.22*(100vw - 40rem)/35);
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 51, ../sass/_01_quarks.sass */
+  /* line 53, ../sass/_01_quarks.sass */
   .type-p {
     font-size: 1.1rem;
   }
 }
 
-/* line 57, ../sass/_01_quarks.sass */
+/* line 59, ../sass/_01_quarks.sass */
 .dark-purple {
   color: #2a1e3e;
 }
 
-/* line 60, ../sass/_01_quarks.sass */
+/* line 62, ../sass/_01_quarks.sass */
 .purple {
   color: #6a6799;
 }
 
-/* line 63, ../sass/_01_quarks.sass */
+/* line 65, ../sass/_01_quarks.sass */
 .white {
   color: white;
 }
 
-/* line 66, ../sass/_01_quarks.sass */
+/* line 68, ../sass/_01_quarks.sass */
 .pink {
   color: #fe579d;
 }
 
-/* line 69, ../sass/_01_quarks.sass */
+/* line 71, ../sass/_01_quarks.sass */
 .blue {
   color: #20bae3;
 }
 
-/* line 72, ../sass/_01_quarks.sass */
+/* line 74, ../sass/_01_quarks.sass */
 .no-padding {
   padding: 0;
 }
 
-/* line 75, ../sass/_01_quarks.sass */
+/* line 77, ../sass/_01_quarks.sass */
 .padding-title-m {
   padding-top: 2.248rem;
 }
 @media screen and (min-width: 40em) {
-  /* line 75, ../sass/_01_quarks.sass */
+  /* line 77, ../sass/_01_quarks.sass */
   .padding-title-m {
     padding-top: calc(1.248rem + 0.312*(100vw - 40rem)/35 + 1rem);
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 75, ../sass/_01_quarks.sass */
+  /* line 77, ../sass/_01_quarks.sass */
   .padding-title-m {
     padding-top: 2.56rem;
   }
 }
 
-/* line 78, ../sass/_01_quarks.sass */
+/* line 80, ../sass/_01_quarks.sass */
 .padding-title-g {
   padding-top: 2.17rem;
 }
 @media screen and (min-width: 40em) {
-  /* line 78, ../sass/_01_quarks.sass */
+  /* line 80, ../sass/_01_quarks.sass */
   .padding-title-g {
     padding-top: calc(1.17rem + 0.78*(100vw - 40rem)/35 + 1rem);
   }
 }
 @media screen and (min-width: 75em) {
-  /* line 78, ../sass/_01_quarks.sass */
+  /* line 80, ../sass/_01_quarks.sass */
   .padding-title-g {
     padding-top: 2.95rem;
   }
@@ -2346,15 +2352,21 @@ p {
 .square:first-child, .square-cover:first-child {
   margin-left: 0;
 }
+@media screen and (max-width: 39.9375em) {
+  /* line 13, ../sass/_02_atoms.sass */
+  .square, .square-cover {
+    margin: 0;
+  }
+}
 
-/* line 20, ../sass/_02_atoms.sass */
+/* line 21, ../sass/_02_atoms.sass */
 .square:after, .square-cover:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
 
-/* line 25, ../sass/_02_atoms.sass */
+/* line 26, ../sass/_02_atoms.sass */
 .square-cover {
   background-image: url("../img/rec-5.png");
   background-size: cover;
@@ -2362,7 +2374,7 @@ p {
   background-repeat: no-repeat;
 }
 
-/* line 32, ../sass/_02_atoms.sass */
+/* line 33, ../sass/_02_atoms.sass */
 .square-content {
   position: absolute;
   top: 0;
@@ -2373,7 +2385,7 @@ p {
   box-sizing: border-box !important;
 }
 
-/* line 42, ../sass/_02_atoms.sass */
+/* line 43, ../sass/_02_atoms.sass */
 .arrow-forth, .arrow-back {
   background-image: url("../img/arrow.svg");
   background-size: contain;
@@ -2386,13 +2398,13 @@ p {
   margin: 5rem 1rem 0 1rem;
 }
 
-/* line 49, ../sass/_02_atoms.sass */
+/* line 50, ../sass/_02_atoms.sass */
 .arrow-back {
   transform: scaleX(-1);
   float: left;
 }
 
-/* line 54, ../sass/_02_atoms.sass */
+/* line 55, ../sass/_02_atoms.sass */
 .hamburguer {
   border: 5px solid white;
   border-left: 0;
@@ -2409,7 +2421,7 @@ p {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 64, ../sass/_02_atoms.sass */
+/* line 65, ../sass/_02_atoms.sass */
 .hamburguer:after {
   position: absolute;
   content: "";
@@ -2420,7 +2432,7 @@ p {
   height: 100%;
 }
 
-/* line 72, ../sass/_02_atoms.sass */
+/* line 73, ../sass/_02_atoms.sass */
 .logo {
   display: inline-block;
   width: 10rem;
@@ -2432,19 +2444,19 @@ p {
   background-repeat: no-repeat;
 }
 
-/* line 78, ../sass/_02_atoms.sass */
+/* line 79, ../sass/_02_atoms.sass */
 .code {
   color: #20bae3;
   font-family: "Cousine";
   font-size: 0.8rem;
 }
 
-/* line 83, ../sass/_02_atoms.sass */
+/* line 84, ../sass/_02_atoms.sass */
 ol {
   list-style: none;
   counter-reset: li;
 }
-/* line 86, ../sass/_02_atoms.sass */
+/* line 87, ../sass/_02_atoms.sass */
 ol li::before {
   content: counter(li);
   font-family: "Signika";
@@ -2457,13 +2469,13 @@ ol li::before {
   top: 0;
   left: 0;
 }
-/* line 97, ../sass/_02_atoms.sass */
+/* line 98, ../sass/_02_atoms.sass */
 ol li {
   counter-increment: li;
   margin-bottom: 0.5rem;
 }
 
-/* line 102, ../sass/_02_atoms.sass */
+/* line 103, ../sass/_02_atoms.sass */
 ul li {
   display: inline-block;
 }
@@ -2494,22 +2506,22 @@ section {
   padding-right: 0 !important;
 }
 
-/* line 17, ../sass/_04_organisms.sass */
+/* line 18, ../sass/_04_organisms.sass */
 nav {
   background-color: white;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
   padding: 1rem 0;
   margin-top: 2rem;
 }
-/* line 22, ../sass/_04_organisms.sass */
+/* line 23, ../sass/_04_organisms.sass */
 nav li {
   margin-left: 2rem;
 }
-/* line 24, ../sass/_04_organisms.sass */
+/* line 25, ../sass/_04_organisms.sass */
 nav li:first-child {
   margin-left: 0;
 }
-/* line 26, ../sass/_04_organisms.sass */
+/* line 27, ../sass/_04_organisms.sass */
 nav a {
   text-transform: uppercase;
   color: #6a6799;
@@ -2517,13 +2529,13 @@ nav a {
   font-weight: 700;
   padding: 0.2rem;
 }
-/* line 32, ../sass/_04_organisms.sass */
+/* line 33, ../sass/_04_organisms.sass */
 nav a:hover {
   color: #fe579d;
   border-bottom: 1px #fe579d solid;
 }
 
-/* line 37, ../sass/_04_organisms.sass */
+/* line 38, ../sass/_04_organisms.sass */
 .square-content {
   text-transform: uppercase;
   color: white;
@@ -2532,7 +2544,7 @@ nav a:hover {
   text-align: center;
 }
 
-/* line 44, ../sass/_04_organisms.sass */
+/* line 45, ../sass/_04_organisms.sass */
 .intro {
   background-image: url("../img/intro.png");
   background-size: cover;

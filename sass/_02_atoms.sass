@@ -9,6 +9,9 @@ p
  line-height: 1.666
  color: $black-80
 
+a
+ color: $blue
+ border-bottom: 1px solid $blue
 
 .square
  position: relative
@@ -16,7 +19,8 @@ p
  margin: 1rem 0 0 1rem
  &:first-child
   margin-left: 0
-
+ +breakpoint(small only)
+  margin: 0
 .square:after
  content: ""
  display: block
@@ -79,25 +83,3 @@ p
  color: $blue
  font-family: $monospace
  font-size: $sss
-
-ol
- list-style: none
- counter-reset: li
- li::before
-  content: counter(li)
-  font-family: $display
-  position: absolute
-  display: inline-block
-  font-size: 3em
-  line-height: 0.8
-  font-weight: $semibold
-  color: $white
-  top: 0
-  left: 0
- li
-  counter-increment: li
-  margin-bottom: 0.5rem
-
-ul
- li
-  display: inline-block
