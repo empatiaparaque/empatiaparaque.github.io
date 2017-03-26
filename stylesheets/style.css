@@ -2480,7 +2480,7 @@ a img {
   box-sizing: border-box !important;
 }
 /* line 69, ../sass/_02_atoms.sass */
-.square-content img {
+.square-content img, .square-content a img {
   margin-top: 1rem;
   width: 2rem;
 }
