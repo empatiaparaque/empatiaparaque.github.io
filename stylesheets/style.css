@@ -2080,7 +2080,7 @@ body {
   box-sizing: border-box !important;
 }
 
-@media screen and (max-width: 74.9375em) {
+@media screen and (max-width: 89.9375em) {
   /* line 8, ../sass/_01_quarks.sass */
   .row {
     max-width: 65rem;
@@ -2392,42 +2392,43 @@ p {
 a {
   color: #20bae3;
   border-bottom: 1px solid #20bae3;
+  padding: 0 0.3rem 0.4rem 0.3rem;
 }
-/* line 15, ../sass/_02_atoms.sass */
+/* line 16, ../sass/_02_atoms.sass */
 a:hover {
   color: #6a6799;
 }
-/* line 17, ../sass/_02_atoms.sass */
+/* line 18, ../sass/_02_atoms.sass */
 a img {
   height: 0.8rem;
   margin-left: 0.5rem;
 }
 
-/* line 21, ../sass/_02_atoms.sass */
+/* line 22, ../sass/_02_atoms.sass */
 .square, .square-cover {
   position: relative;
   padding: 2rem;
   margin: 1rem 0 0 1rem;
 }
-/* line 25, ../sass/_02_atoms.sass */
+/* line 26, ../sass/_02_atoms.sass */
 .square:first-child, .square-cover:first-child {
   margin-left: 0;
 }
 @media screen and (max-width: 39.9375em) {
-  /* line 21, ../sass/_02_atoms.sass */
+  /* line 22, ../sass/_02_atoms.sass */
   .square, .square-cover {
     margin: 0;
   }
 }
 
-/* line 29, ../sass/_02_atoms.sass */
+/* line 30, ../sass/_02_atoms.sass */
 .square:after, .square-cover:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
 
-/* line 34, ../sass/_02_atoms.sass */
+/* line 35, ../sass/_02_atoms.sass */
 .square-cover {
   background-image: url("../img/rec-5.png");
   background-size: cover;
@@ -2435,7 +2436,7 @@ a img {
   background-repeat: no-repeat;
 }
 
-/* line 41, ../sass/_02_atoms.sass */
+/* line 42, ../sass/_02_atoms.sass */
 .square-content {
   position: absolute;
   top: 0;
@@ -2445,13 +2446,13 @@ a img {
   padding: 25%;
   box-sizing: border-box !important;
 }
-/* line 49, ../sass/_02_atoms.sass */
+/* line 50, ../sass/_02_atoms.sass */
 .square-content img {
   margin-top: 1rem;
   width: 2rem;
 }
 
-/* line 53, ../sass/_02_atoms.sass */
+/* line 54, ../sass/_02_atoms.sass */
 .arrow-forth, .arrow-back {
   background-image: url("../img/arrow.svg");
   background-size: contain;
@@ -2464,13 +2465,13 @@ a img {
   margin: 5rem 1rem 0 1rem;
 }
 
-/* line 60, ../sass/_02_atoms.sass */
+/* line 61, ../sass/_02_atoms.sass */
 .arrow-back {
   transform: scaleX(-1);
   float: left;
 }
 
-/* line 65, ../sass/_02_atoms.sass */
+/* line 66, ../sass/_02_atoms.sass */
 .hamburguer {
   border: 5px solid white;
   border-left: 0;
@@ -2487,7 +2488,7 @@ a img {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 75, ../sass/_02_atoms.sass */
+/* line 76, ../sass/_02_atoms.sass */
 .hamburguer:after {
   position: absolute;
   content: "";
@@ -2498,7 +2499,7 @@ a img {
   height: 100%;
 }
 
-/* line 83, ../sass/_02_atoms.sass */
+/* line 84, ../sass/_02_atoms.sass */
 .logo {
   display: inline-block;
   width: 10rem;
@@ -2510,7 +2511,7 @@ a img {
   background-repeat: no-repeat;
 }
 
-/* line 89, ../sass/_02_atoms.sass */
+/* line 90, ../sass/_02_atoms.sass */
 .code {
   color: #20bae3;
   font-family: "Cousine";
@@ -2553,35 +2554,37 @@ nav {
 /* line 23, ../sass/_04_organisms.sass */
 nav li {
   margin-left: 2rem;
+  display: inline;
 }
-/* line 25, ../sass/_04_organisms.sass */
+/* line 26, ../sass/_04_organisms.sass */
 nav li:first-child {
   margin-left: 0;
 }
-/* line 27, ../sass/_04_organisms.sass */
+/* line 28, ../sass/_04_organisms.sass */
 nav a {
   text-transform: uppercase;
-  color: #6a6799;
+  color: #20bae3;
   font-size: 1rem;
   font-weight: 700;
   padding: 0.2rem;
+  border-bottom: 0;
 }
-/* line 33, ../sass/_04_organisms.sass */
+/* line 35, ../sass/_04_organisms.sass */
 nav a:hover {
-  color: #fe579d;
-  border-bottom: 1px #fe579d solid;
+  color: #6a6799;
+  border-bottom: 1px #6a6799 solid;
 }
 
-/* line 37, ../sass/_04_organisms.sass */
-.large-12 {
-  margin-top: 4rem;
-}
 /* line 39, ../sass/_04_organisms.sass */
+.large-12 {
+  margin-top: 2rem;
+}
+/* line 41, ../sass/_04_organisms.sass */
 .large-12:first-child {
   margin-top: 0;
 }
 
-/* line 42, ../sass/_04_organisms.sass */
+/* line 44, ../sass/_04_organisms.sass */
 .square-content {
   text-transform: uppercase;
   color: white;
@@ -2590,7 +2593,7 @@ nav a:hover {
   text-align: center;
 }
 
-/* line 49, ../sass/_04_organisms.sass */
+/* line 51, ../sass/_04_organisms.sass */
 .intro {
   background-image: url("../img/lego_blue.png");
   background-size: cover;
