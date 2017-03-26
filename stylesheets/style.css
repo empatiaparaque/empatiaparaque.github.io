@@ -2480,26 +2480,31 @@ a img {
   box-sizing: border-box !important;
 }
 /* line 69, ../sass/_02_atoms.sass */
-.square-content img, .square-content a img {
+.square-content img {
   margin-top: 1rem;
   width: 2rem;
 }
 
-/* line 73, ../sass/_02_atoms.sass */
+/* line 74, ../sass/_02_atoms.sass */
+.biblioteca a img {
+  height: 1.5rem !important;
+}
+
+/* line 77, ../sass/_02_atoms.sass */
 .rectangle-content {
   padding: 10% 1rem;
   position: relative;
   color: white;
 }
-/* line 77, ../sass/_02_atoms.sass */
+/* line 81, ../sass/_02_atoms.sass */
 .rectangle-content span {
   width: calc(100% - 2.5rem);
 }
-/* line 79, ../sass/_02_atoms.sass */
+/* line 83, ../sass/_02_atoms.sass */
 .rectangle-content a {
   color: white;
 }
-/* line 81, ../sass/_02_atoms.sass */
+/* line 85, ../sass/_02_atoms.sass */
 .rectangle-content img {
   width: 2rem;
   position: absolute;
@@ -2507,7 +2512,7 @@ a img {
   right: 1rem;
 }
 
-/* line 87, ../sass/_02_atoms.sass */
+/* line 91, ../sass/_02_atoms.sass */
 .arrow-forth, .arrow-back {
   background-image: url("../img/arrow.svg");
   background-size: contain;
@@ -2520,13 +2525,13 @@ a img {
   margin: 5rem 1rem 0 1rem;
 }
 
-/* line 94, ../sass/_02_atoms.sass */
+/* line 98, ../sass/_02_atoms.sass */
 .arrow-back {
   transform: scaleX(-1);
   float: left;
 }
 
-/* line 99, ../sass/_02_atoms.sass */
+/* line 103, ../sass/_02_atoms.sass */
 .hamburguer {
   border: 5px solid white;
   border-left: 0;
@@ -2543,7 +2548,7 @@ a img {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 109, ../sass/_02_atoms.sass */
+/* line 113, ../sass/_02_atoms.sass */
 .hamburguer:after {
   position: absolute;
   content: "";
@@ -2554,7 +2559,7 @@ a img {
   height: 100%;
 }
 
-/* line 117, ../sass/_02_atoms.sass */
+/* line 121, ../sass/_02_atoms.sass */
 .logo {
   display: inline-block;
   width: 12rem;
@@ -2566,14 +2571,14 @@ a img {
   background-repeat: no-repeat;
 }
 
-/* line 123, ../sass/_02_atoms.sass */
+/* line 127, ../sass/_02_atoms.sass */
 .code {
   color: #20bae3;
   font-family: "Cousine";
   font-size: 0.8rem;
 }
 
-/* line 128, ../sass/_02_atoms.sass */
+/* line 132, ../sass/_02_atoms.sass */
 .force-square {
   padding: 30% 0;
 }
@@ -2584,43 +2589,52 @@ section {
   margin-top: 2rem;
 }
 
-/* line 5, ../sass/_04_organisms.sass */
+/* line 6, ../sass/_04_organisms.sass */
+section.biblioteca .large-4 {
+  width: calc(16.66667% - 1rem);
+}
+/* line 8, ../sass/_04_organisms.sass */
+section.biblioteca .large-2 {
+  width: calc(33.33333% - 1rem);
+}
+
+/* line 11, ../sass/_04_organisms.sass */
 .bg-dark {
   background-color: #2a1e3e;
 }
 
-/* line 8, ../sass/_04_organisms.sass */
+/* line 14, ../sass/_04_organisms.sass */
 .bg-white {
   background-color: white;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-/* line 13, ../sass/_04_organisms.sass */
+/* line 19, ../sass/_04_organisms.sass */
 .column:first-child, .columns:first-child, .columns:first-child {
   padding-left: 0 !important;
 }
-/* line 15, ../sass/_04_organisms.sass */
+/* line 21, ../sass/_04_organisms.sass */
 .column:last-child, .columns:last-child, .columns:last-child {
   padding-right: 0 !important;
 }
 
-/* line 18, ../sass/_04_organisms.sass */
+/* line 24, ../sass/_04_organisms.sass */
 nav {
   background-color: white;
   box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
   padding: 1rem 0;
   margin-top: 2rem;
 }
-/* line 23, ../sass/_04_organisms.sass */
+/* line 29, ../sass/_04_organisms.sass */
 nav li {
   margin-left: 2rem;
   display: inline;
 }
-/* line 26, ../sass/_04_organisms.sass */
+/* line 32, ../sass/_04_organisms.sass */
 nav li:first-child {
   margin-left: 0;
 }
-/* line 28, ../sass/_04_organisms.sass */
+/* line 34, ../sass/_04_organisms.sass */
 nav a {
   text-transform: uppercase;
   color: #20bae3;
@@ -2629,22 +2643,22 @@ nav a {
   padding: 0.2rem;
   border-bottom: 0;
 }
-/* line 35, ../sass/_04_organisms.sass */
+/* line 41, ../sass/_04_organisms.sass */
 nav a:hover {
   color: #6a6799;
   border-bottom: 1px #6a6799 solid;
 }
 
-/* line 39, ../sass/_04_organisms.sass */
+/* line 45, ../sass/_04_organisms.sass */
 .large-12 {
   margin-top: 2rem;
 }
-/* line 41, ../sass/_04_organisms.sass */
+/* line 47, ../sass/_04_organisms.sass */
 .large-12:first-child {
   margin-top: 0;
 }
 
-/* line 44, ../sass/_04_organisms.sass */
+/* line 50, ../sass/_04_organisms.sass */
 .square-content, .square-content a {
   text-transform: uppercase;
   color: white;
@@ -2654,7 +2668,7 @@ nav a:hover {
   border: 0;
 }
 
-/* line 52, ../sass/_04_organisms.sass */
+/* line 58, ../sass/_04_organisms.sass */
 .intro {
   background-image: url("../img/lego_blue.png");
   background-size: cover;
@@ -2665,7 +2679,7 @@ nav a:hover {
   margin-top: 0;
 }
 
-/* line 58, ../sass/_04_organisms.sass */
+/* line 64, ../sass/_04_organisms.sass */
 .shapes img {
   margin-bottom: 1rem;
 }
