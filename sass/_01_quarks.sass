@@ -23,15 +23,18 @@ body
  text-align: right
 
 .light
- font-weight: $light
+ font-weight: $light !important
 
 .bold
- font-weight: $bold
+ font-weight: $bold !important
+
+.type-ggg
+ +type($ggg, $kg)
+ padding: 1rem 0
 
 .type-gg
  +type($gg, $kg)
  padding: 1rem 0
-
 
 .type-g
  +type($g, $kg)
@@ -67,11 +70,18 @@ body
 .white
  color: $white
 
+a.white
+ border-bottom: 1px solid $white
+
 .pink
  color: $pink
 
 .blue
  color: $blue
+
+.italic
+ font-weight: $light
+ font-style: italic
 
 .no-padding
  padding: 0
