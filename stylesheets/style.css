@@ -2567,40 +2567,48 @@ section.biblioteca .large-2 {
   width: calc(16.66667% - 1rem) !important;
 }
 /* line 4, ../sass/_library.sass */
+section.biblioteca .large-3 {
+  width: calc(24.99999% - 1rem) !important;
+}
+/* line 6, ../sass/_library.sass */
 section.biblioteca .large-4 {
   width: calc(33.33333% - 1rem) !important;
 }
+/* line 8, ../sass/_library.sass */
+section.biblioteca .large-6 {
+  width: calc(49.99999% - 1rem) !important;
+}
 
-/* line 7, ../sass/_library.sass */
+/* line 11, ../sass/_library.sass */
 .square, .square-cover, .rectangle-cover {
   margin: 1rem 0 0 1rem;
   position: relative;
   box-sizing: border-box;
 }
-/* line 11, ../sass/_library.sass */
+/* line 15, ../sass/_library.sass */
 .square:first-child, .square-cover:first-child, .rectangle-cover:first-child {
   margin-left: 0;
 }
 @media screen and (max-width: 39.9375em) {
-  /* line 7, ../sass/_library.sass */
+  /* line 11, ../sass/_library.sass */
   .square, .square-cover, .rectangle-cover {
     margin: 0;
   }
 }
 
-/* line 16, ../sass/_library.sass */
+/* line 20, ../sass/_library.sass */
 .square:after, .square-cover:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
 
-/* line 21, ../sass/_library.sass */
+/* line 25, ../sass/_library.sass */
 .square-cover {
   padding: 1rem;
 }
 
-/* line 28, ../sass/_library.sass */
+/* line 32, ../sass/_library.sass */
 .rectangle-cover, .square-cover {
   background-color: #20bae3;
   background-image: url("");
@@ -2609,19 +2617,20 @@ section.biblioteca .large-4 {
   background-repeat: no-repeat;
   transition: 0.3s linear 0s;
 }
-/* line 32, ../sass/_library.sass */
+/* line 36, ../sass/_library.sass */
 .rectangle-cover:hover, .square-cover:hover {
   background-size: 120%;
   background-color: #2a1e3e;
   transition: 0.3s linear 0s;
 }
 
-/* line 37, ../sass/_library.sass */
+/* line 41, ../sass/_library.sass */
 .rectangle-cover {
   min-height: 8rem;
+  padding: 0 !important;
 }
 
-/* line 41, ../sass/_library.sass */
+/* line 46, ../sass/_library.sass */
 .square-content {
   position: absolute;
   top: 0;
@@ -2631,13 +2640,13 @@ section.biblioteca .large-4 {
   padding: 25% 10%;
   box-sizing: border-box !important;
 }
-/* line 49, ../sass/_library.sass */
+/* line 54, ../sass/_library.sass */
 .square-content img {
   margin-top: 1rem;
   width: 2rem;
 }
 
-/* line 53, ../sass/_library.sass */
+/* line 58, ../sass/_library.sass */
 .square-content, .square-content a {
   text-transform: uppercase;
   color: white;
@@ -2645,30 +2654,33 @@ section.biblioteca .large-4 {
   font-weight: 600;
   text-align: center;
   border: 0;
+  line-height: 1.2;
 }
 
-/* line 62, ../sass/_library.sass */
+/* line 68, ../sass/_library.sass */
 .biblioteca a img {
   height: 1.5rem !important;
 }
 
-/* line 65, ../sass/_library.sass */
+/* line 71, ../sass/_library.sass */
 .rectangle-content {
   padding: 10% 1rem;
   position: relative;
   color: white;
+  font-size: 1.1rem;
 }
-/* line 69, ../sass/_library.sass */
+/* line 76, ../sass/_library.sass */
 .rectangle-content span {
   width: calc(100% - 2.5rem);
   display: inline-block;
 }
-/* line 72, ../sass/_library.sass */
+/* line 79, ../sass/_library.sass */
 .rectangle-content a {
   color: white;
   border: 0;
+  padding: 0;
 }
-/* line 75, ../sass/_library.sass */
+/* line 83, ../sass/_library.sass */
 .rectangle-content img {
   width: 2rem;
   position: absolute;
@@ -2676,42 +2688,42 @@ section.biblioteca .large-4 {
   right: 1rem;
 }
 
-/* line 81, ../sass/_library.sass */
+/* line 89, ../sass/_library.sass */
 .lagarta {
   background-image: url("../img/lagartavirapupa.png");
 }
 
-/* line 84, ../sass/_library.sass */
+/* line 92, ../sass/_library.sass */
 .lovenomatter {
   background-image: url("../img/lovenomatter.png");
 }
 
-/* line 87, ../sass/_library.sass */
+/* line 95, ../sass/_library.sass */
 .quandosintoque {
   background-image: url("../img/quandosintoque.png");
 }
 
-/* line 90, ../sass/_library.sass */
+/* line 98, ../sass/_library.sass */
 .emma {
   background-image: url("../img/emma.png");
 }
 
-/* line 93, ../sass/_library.sass */
+/* line 101, ../sass/_library.sass */
 .relatorio {
   background-image: url("../img/relatorio.png");
 }
 
-/* line 96, ../sass/_library.sass */
+/* line 104, ../sass/_library.sass */
 .mapasmentais {
   background-image: url("../img/mapamental.png");
 }
 
-/* line 99, ../sass/_library.sass */
+/* line 107, ../sass/_library.sass */
 .perestroika {
   background-image: url("../img/perestroika.png");
 }
 
-/* line 102, ../sass/_library.sass */
+/* line 110, ../sass/_library.sass */
 .caindonobrasil {
   background-image: url("../img/caindonobrasil.png");
 }
