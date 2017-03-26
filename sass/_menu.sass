@@ -1,0 +1,44 @@
+nav
+ background-color: $white
+ box-shadow: 0 0.5rem 2rem $black-20
+ padding: 1rem 0
+ margin-top: 2rem
+ li
+  margin-left: 2rem
+  display: inline
+  &:first-child
+   margin-left: 0
+ a
+  text-transform: uppercase
+  color: $blue
+  font-size: $ss
+  font-weight: $bold
+  padding: 0.2rem
+  border-bottom: 0
+  &:hover
+   color: $purple
+   //border-bottom: 1px $purple solid
+
+.hamburguer
+ border: 5px solid $white
+ border-left: 0
+ border-right: 0
+ float: right
+ margin-right: 1rem
+ +size(2.5rem, 2.5rem)
+ display: inline-block
+ box-sizing: border-box
+ +v-align
+ &:after
+  position: absolute
+  content: ""
+  border-top: 5px solid $white
+  top: calc(50% - 2.5px)
+  right: 0
+  +size(100%, 100%)
+
+.logo
+ display: inline-block
+ +size(10rem, 5rem)
+ content: ""
+ +bimg('../img/logo.svg', contain, left)

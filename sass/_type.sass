@@ -1,0 +1,74 @@
+
+html, body
+ +type($p,$ks)
+
+.right-text
+ text-align: right
+
+.light
+ font-weight: $light !important
+
+.bold
+ font-weight: $bold !important
+
+.type-ggg
+ +type($ggg, $kg)
+ padding: 1rem 0
+
+.type-gg
+ +type($gg, $kg)
+ padding: 1rem 0
+
+.type-g
+ +type($g, $kg)
+ padding: 1rem 0
+
+.type-m
+ +type($m, $ks)
+ line-height: 1.5
+ padding: 0.5rem 0
+
+.type-s
+ +type($s, $ks)
+ line-height: 1.5
+ padding: 0.25rem 0
+
+.type-ss
+ +type($ss, $ks)
+ line-height: 1.2
+ padding: 0.25rem 0
+
+.type-p
+ +type($p,$ks)
+ font-weight: $regular
+ font-family: $text
+ line-height: 1.5
+
+p
+ +type($p,$ks)
+ font-weight: $regular
+ font-family: $text
+ line-height: 1.666
+ color: $black-80
+
+a
+ color: $blue
+ border-bottom: 1px solid $blue
+ padding: 0 0.3rem 0.4rem 0.3rem !important
+ &:hover
+  color: $purple
+ img
+  height: 0.8rem
+  margin-left: 0.5rem
+
+a.white
+ border-bottom: 1px solid $white
+
+.italic
+ font-weight: $light
+ font-style: italic
+
+.code
+ color: $blue
+ font-family: $monospace
+ font-size: $sss

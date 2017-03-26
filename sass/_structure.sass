@@ -1,0 +1,21 @@
+.row, .column, .columns
+ box-sizing: border-box !important
+
+.row
+ +breakpoint(xlarge down)
+  max-width: 65rem
+ &:first-child
+  margin-top: 0
+ +breakpoint(small only)
+  padding: 0 1rem
+
+.column, .columns
+ &:first-child
+  padding-left: 0 !important
+ &:last-child
+  padding-right: 0 !important
+
+.large-12
+ margin-top: 2rem
+ &:first-child
+  margin-top: 0
