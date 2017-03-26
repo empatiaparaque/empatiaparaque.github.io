@@ -2430,7 +2430,7 @@ a img {
 
 /* line 35, ../sass/_02_atoms.sass */
 .square-cover {
-  background-image: url("../img/rec-5.png");
+  background-image: url("");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -2447,7 +2447,7 @@ a img {
   position: relative;
   margin: 1rem 0 0 1rem;
   min-height: 8rem;
-  background-image: url("../img/rec-5.png");
+  background-image: url("");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -2582,6 +2582,26 @@ a img {
 /* line 133, ../sass/_02_atoms.sass */
 .force-square {
   padding: 30% 0;
+}
+
+/* line 137, ../sass/_02_atoms.sass */
+.lagarta {
+  background-image: url("../img/lagartavirapupa.jpg");
+}
+
+/* line 139, ../sass/_02_atoms.sass */
+.lovenomatter {
+  background-image: url("../img/lovenomatter.jpg");
+}
+
+/* line 141, ../sass/_02_atoms.sass */
+.quandosintoque {
+  background-image: url("../img/quandosintoque.jpg");
+}
+
+/* line 143, ../sass/_02_atoms.sass */
+.emma {
+  background-image: url("../img/emma.jpg");
 }
 
 /* line 1, ../sass/_04_organisms.sass */
