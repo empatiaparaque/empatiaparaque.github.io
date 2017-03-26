@@ -2554,7 +2554,7 @@ nav a:hover {
 .logo {
   display: inline-block;
   width: 10rem;
-  height: 5rem;
+  height: 4rem;
   content: "";
   background-image: url("../img/logo.svg");
   background-size: contain;
