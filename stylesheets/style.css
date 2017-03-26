@@ -2591,11 +2591,11 @@ section {
 
 /* line 6, ../sass/_04_organisms.sass */
 section.biblioteca .large-4 {
-  width: calc(16.66667% - 1rem);
+  width: calc(16.66667% - 1rem) !important;
 }
 /* line 8, ../sass/_04_organisms.sass */
 section.biblioteca .large-2 {
-  width: calc(33.33333% - 1rem);
+  width: calc(33.33333% - 1rem) !important;
 }
 
 /* line 11, ../sass/_04_organisms.sass */
