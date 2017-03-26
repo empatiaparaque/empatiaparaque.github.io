@@ -2430,46 +2430,48 @@ a img {
 
 /* line 35, ../sass/_02_atoms.sass */
 .square-cover {
+  background-color: #2a1e3e;
   background-image: url("");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.3s linear 0s;
 }
-/* line 39, ../sass/_02_atoms.sass */
+/* line 40, ../sass/_02_atoms.sass */
 .square-cover:hover {
   background-size: 120%;
   transition: 0.3s linear 0s;
 }
 
-/* line 43, ../sass/_02_atoms.sass */
+/* line 44, ../sass/_02_atoms.sass */
 .rectangle-cover {
   position: relative;
   margin: 1rem 0 0 1rem;
   min-height: 8rem;
+  background-color: #2a1e3e;
   background-image: url("");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.3s linear 0s;
 }
-/* line 49, ../sass/_02_atoms.sass */
+/* line 51, ../sass/_02_atoms.sass */
 .rectangle-cover:hover {
   background-size: 120%;
   transition: 0.3s linear 0s;
 }
-/* line 52, ../sass/_02_atoms.sass */
+/* line 54, ../sass/_02_atoms.sass */
 .rectangle-cover:first-child {
   margin-left: 0;
 }
 @media screen and (max-width: 39.9375em) {
-  /* line 43, ../sass/_02_atoms.sass */
+  /* line 44, ../sass/_02_atoms.sass */
   .rectangle-cover {
     margin: 0;
   }
 }
 
-/* line 61, ../sass/_02_atoms.sass */
+/* line 63, ../sass/_02_atoms.sass */
 .square-content {
   position: absolute;
   top: 0;
@@ -2479,33 +2481,34 @@ a img {
   padding: 25% 10%;
   box-sizing: border-box !important;
 }
-/* line 69, ../sass/_02_atoms.sass */
+/* line 71, ../sass/_02_atoms.sass */
 .square-content img {
   margin-top: 1rem;
   width: 2rem;
 }
 
-/* line 74, ../sass/_02_atoms.sass */
+/* line 76, ../sass/_02_atoms.sass */
 .biblioteca a img {
   height: 1.5rem !important;
 }
 
-/* line 77, ../sass/_02_atoms.sass */
+/* line 79, ../sass/_02_atoms.sass */
 .rectangle-content {
   padding: 10% 1rem;
   position: relative;
   color: white;
 }
-/* line 81, ../sass/_02_atoms.sass */
+/* line 83, ../sass/_02_atoms.sass */
 .rectangle-content span {
   width: calc(100% - 2.5rem);
   display: inline-block;
 }
-/* line 84, ../sass/_02_atoms.sass */
+/* line 86, ../sass/_02_atoms.sass */
 .rectangle-content a {
   color: white;
+  border: 0;
 }
-/* line 86, ../sass/_02_atoms.sass */
+/* line 89, ../sass/_02_atoms.sass */
 .rectangle-content img {
   width: 2rem;
   position: absolute;
@@ -2513,7 +2516,7 @@ a img {
   right: 1rem;
 }
 
-/* line 92, ../sass/_02_atoms.sass */
+/* line 95, ../sass/_02_atoms.sass */
 .arrow-forth, .arrow-back {
   background-image: url("../img/arrow.svg");
   background-size: contain;
@@ -2526,13 +2529,13 @@ a img {
   margin: 5rem 1rem 0 1rem;
 }
 
-/* line 99, ../sass/_02_atoms.sass */
+/* line 102, ../sass/_02_atoms.sass */
 .arrow-back {
   transform: scaleX(-1);
   float: left;
 }
 
-/* line 104, ../sass/_02_atoms.sass */
+/* line 107, ../sass/_02_atoms.sass */
 .hamburguer {
   border: 5px solid white;
   border-left: 0;
@@ -2549,7 +2552,7 @@ a img {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 114, ../sass/_02_atoms.sass */
+/* line 117, ../sass/_02_atoms.sass */
 .hamburguer:after {
   position: absolute;
   content: "";
@@ -2560,7 +2563,7 @@ a img {
   height: 100%;
 }
 
-/* line 122, ../sass/_02_atoms.sass */
+/* line 125, ../sass/_02_atoms.sass */
 .logo {
   display: inline-block;
   width: 12rem;
@@ -2572,34 +2575,34 @@ a img {
   background-repeat: no-repeat;
 }
 
-/* line 128, ../sass/_02_atoms.sass */
+/* line 131, ../sass/_02_atoms.sass */
 .code {
   color: #20bae3;
   font-family: "Cousine";
   font-size: 0.8rem;
 }
 
-/* line 133, ../sass/_02_atoms.sass */
+/* line 136, ../sass/_02_atoms.sass */
 .force-square {
   padding: 30% 0;
 }
 
-/* line 137, ../sass/_02_atoms.sass */
+/* line 140, ../sass/_02_atoms.sass */
 .lagarta {
   background-image: url("../img/lagartavirapupa.jpg");
 }
 
-/* line 139, ../sass/_02_atoms.sass */
+/* line 142, ../sass/_02_atoms.sass */
 .lovenomatter {
   background-image: url("../img/lovenomatter.jpg");
 }
 
-/* line 141, ../sass/_02_atoms.sass */
+/* line 144, ../sass/_02_atoms.sass */
 .quandosintoque {
   background-image: url("../img/quandosintoque.jpg");
 }
 
-/* line 143, ../sass/_02_atoms.sass */
+/* line 146, ../sass/_02_atoms.sass */
 .emma {
   background-image: url("../img/emma.jpg");
 }
