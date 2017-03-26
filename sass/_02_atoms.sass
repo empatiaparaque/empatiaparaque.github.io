@@ -42,21 +42,18 @@ a
 
 .rectangle-cover
  position: relative
- padding: 2rem
  margin: 1rem 0 0 1rem
+ min-height: 8rem
  +bimg('../img/rec-5.png', cover, center)
- +transition
+ +transition-ease
  &:hover
   background-size: 120%
-  +transition
+  +transition-ease
  &:first-child
   margin-left: 0
  +breakpoint(small only)
   margin: 0
- .rectangle-cover:after
-  content: ""
-  display: block
-  padding-bottom: 40%
+
 
 .square-cover:after
  @extend .square:after
@@ -74,17 +71,16 @@ a
   width: 2rem
 
 .rectangle-content
- position: absolute
- top: 0
- left: 0
- width: 100%
- height: 100%
- padding: 25% 10%
- box-sizing: border-box !important
+ padding: 10% 1rem
+ position: relative
+ color: $white
+ a
+  color: $white
  img
-  margin-top: 1rem
   width: 2rem
-  float: right
+  position: absolute
+  top: 2rem
+  right: 1rem
 
 .arrow-forth
  +bimg('../img/arrow.svg', contain, top)
