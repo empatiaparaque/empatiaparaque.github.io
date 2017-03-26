@@ -35,6 +35,8 @@ a
 .square-cover
  @extend .square
  +bimg('../img/rec-5.png', cover, center)
+ &:hover
+  background-size: 200%
 
 .square-cover:after
  @extend .square:after
@@ -47,7 +49,6 @@ a
  height: 100%
  padding: 25% 0
  box-sizing: border-box !important
- text-align: center
  img
   margin-top: 1rem
   width: 2rem
@@ -84,7 +85,7 @@ a
 
 .logo
  display: inline-block
- +size(10rem, 7rem)
+ +size(12rem, 7rem)
  content: ""
  +bimg('../img/logo.svg', contain, left)
 
