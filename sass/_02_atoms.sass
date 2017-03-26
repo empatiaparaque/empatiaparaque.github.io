@@ -34,7 +34,7 @@ a
 
 .square-cover
  @extend .square
- +bimg('../img/rec-5.png', cover, center)
+ +bimg('../img/rec-5.png', 100%, center)
  +transition
  &:hover
   background-size: 120%
@@ -44,11 +44,11 @@ a
  position: relative
  margin: 1rem 0 0 1rem
  min-height: 8rem
- +bimg('../img/rec-5.png', cover, center)
- +transition-ease
+ +bimg('../img/rec-5.png', 100%, center)
+ +transition
  &:hover
   background-size: 120%
-  +transition-ease
+  +transition
  &:first-child
   margin-left: 0
  +breakpoint(small only)

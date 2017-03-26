@@ -2431,7 +2431,7 @@ a img {
 /* line 35, ../sass/_02_atoms.sass */
 .square-cover {
   background-image: url("../img/rec-5.png");
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
   transition: 0.3s linear 0s;
@@ -2448,23 +2448,15 @@ a img {
   margin: 1rem 0 0 1rem;
   min-height: 8rem;
   background-image: url("../img/rec-5.png");
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
+  transition: 0.3s linear 0s;
 }
 /* line 49, ../sass/_02_atoms.sass */
 .rectangle-cover:hover {
   background-size: 120%;
-  transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
+  transition: 0.3s linear 0s;
 }
 /* line 52, ../sass/_02_atoms.sass */
 .rectangle-cover:first-child {
