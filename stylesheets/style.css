@@ -2065,7 +2065,7 @@ ul {
   box-shadow: 0 7px 0 #8a8a8a, 0 14px 0 #8a8a8a;
 }
 
-/* line 102, ../sass/_mixins.sass */
+/* line 42, ../sass/_mixins.sass */
 html {
   font-size: -webkit-calc(0.25vw + 18px);
 }
@@ -2434,29 +2434,81 @@ a img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: 0.3s linear 0s;
 }
-/* line 38, ../sass/_02_atoms.sass */
+/* line 39, ../sass/_02_atoms.sass */
 .square-cover:hover {
-  background-size: 200%;
+  background-size: 120%;
+  transition: 0.3s linear 0s;
 }
 
-/* line 44, ../sass/_02_atoms.sass */
+/* line 43, ../sass/_02_atoms.sass */
+.rectangle-cover {
+  position: relative;
+  padding: 2rem;
+  margin: 1rem 0 0 1rem;
+  background-image: url("../img/rec-5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.3s linear 0s;
+}
+/* line 49, ../sass/_02_atoms.sass */
+.rectangle-cover:hover {
+  background-size: 120%;
+  transition: 0.3s linear 0s;
+}
+/* line 52, ../sass/_02_atoms.sass */
+.rectangle-cover:first-child {
+  margin-left: 0;
+}
+@media screen and (max-width: 39.9375em) {
+  /* line 43, ../sass/_02_atoms.sass */
+  .rectangle-cover {
+    margin: 0;
+  }
+}
+/* line 56, ../sass/_02_atoms.sass */
+.rectangle-cover .rectangle-cover:after {
+  content: "";
+  display: block;
+  padding-bottom: 40%;
+}
+
+/* line 64, ../sass/_02_atoms.sass */
 .square-content {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 25% 0;
+  padding: 25% 10%;
   box-sizing: border-box !important;
 }
-/* line 52, ../sass/_02_atoms.sass */
+/* line 72, ../sass/_02_atoms.sass */
 .square-content img {
   margin-top: 1rem;
   width: 2rem;
 }
 
-/* line 56, ../sass/_02_atoms.sass */
+/* line 76, ../sass/_02_atoms.sass */
+.rectangle-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 25% 10%;
+  box-sizing: border-box !important;
+}
+/* line 84, ../sass/_02_atoms.sass */
+.rectangle-content img {
+  margin-top: 1rem;
+  width: 2rem;
+  float: right;
+}
+
+/* line 89, ../sass/_02_atoms.sass */
 .arrow-forth, .arrow-back {
   background-image: url("../img/arrow.svg");
   background-size: contain;
@@ -2469,13 +2521,13 @@ a img {
   margin: 5rem 1rem 0 1rem;
 }
 
-/* line 63, ../sass/_02_atoms.sass */
+/* line 96, ../sass/_02_atoms.sass */
 .arrow-back {
   transform: scaleX(-1);
   float: left;
 }
 
-/* line 68, ../sass/_02_atoms.sass */
+/* line 101, ../sass/_02_atoms.sass */
 .hamburguer {
   border: 5px solid white;
   border-left: 0;
@@ -2492,7 +2544,7 @@ a img {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-/* line 78, ../sass/_02_atoms.sass */
+/* line 111, ../sass/_02_atoms.sass */
 .hamburguer:after {
   position: absolute;
   content: "";
@@ -2503,7 +2555,7 @@ a img {
   height: 100%;
 }
 
-/* line 86, ../sass/_02_atoms.sass */
+/* line 119, ../sass/_02_atoms.sass */
 .logo {
   display: inline-block;
   width: 12rem;
@@ -2515,14 +2567,14 @@ a img {
   background-repeat: no-repeat;
 }
 
-/* line 92, ../sass/_02_atoms.sass */
+/* line 125, ../sass/_02_atoms.sass */
 .code {
   color: #20bae3;
   font-family: "Cousine";
   font-size: 0.8rem;
 }
 
-/* line 97, ../sass/_02_atoms.sass */
+/* line 130, ../sass/_02_atoms.sass */
 .force-square {
   padding: 30% 0;
 }
