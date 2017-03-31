@@ -2462,6 +2462,8 @@ ul li {
   /* line 23, ../sass/_structure.sass */
   img {
     margin: 0 auto;
+    max-width: 100%;
+    display: block;
   }
 }
 
@@ -2636,26 +2638,20 @@ nav a:hover {
 .square:first-child, .square-cover:first-child, .rectangle-cover:first-child {
   margin-left: 0;
 }
-@media screen and (max-width: 39.9375em) {
-  /* line 15, ../sass/_library.sass */
-  .square, .square-cover, .rectangle-cover {
-    margin: 0;
-  }
-}
 
-/* line 24, ../sass/_library.sass */
+/* line 23, ../sass/_library.sass */
 .square:after, .square-cover:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
 
-/* line 29, ../sass/_library.sass */
+/* line 28, ../sass/_library.sass */
 .square-cover {
   padding: 1rem;
 }
 
-/* line 36, ../sass/_library.sass */
+/* line 35, ../sass/_library.sass */
 .rectangle-cover, .square-cover {
   background-color: RGBA(26, 73, 109, 1);
   background-image: url("");
@@ -2664,20 +2660,20 @@ nav a:hover {
   background-repeat: no-repeat;
   transition: 0.3s linear 0s;
 }
-/* line 40, ../sass/_library.sass */
+/* line 39, ../sass/_library.sass */
 .rectangle-cover:hover, .square-cover:hover {
   background-size: 120%;
   background-color: #2a1e3e;
   transition: 0.3s linear 0s;
 }
 
-/* line 45, ../sass/_library.sass */
+/* line 44, ../sass/_library.sass */
 .rectangle-cover {
   min-height: 8rem;
   padding: 0 !important;
 }
 
-/* line 50, ../sass/_library.sass */
+/* line 49, ../sass/_library.sass */
 .square-content {
   position: absolute;
   top: 0;
@@ -2687,13 +2683,13 @@ nav a:hover {
   padding: 25% 10%;
   box-sizing: border-box !important;
 }
-/* line 58, ../sass/_library.sass */
+/* line 57, ../sass/_library.sass */
 .square-content img {
   margin-top: 1rem;
   width: 2rem;
 }
 
-/* line 62, ../sass/_library.sass */
+/* line 61, ../sass/_library.sass */
 .square-content, .square-content a {
   text-transform: uppercase;
   color: white;
@@ -2704,12 +2700,12 @@ nav a:hover {
   line-height: 1.2;
 }
 
-/* line 72, ../sass/_library.sass */
+/* line 71, ../sass/_library.sass */
 .biblioteca a img {
   height: 1.5rem !important;
 }
 
-/* line 75, ../sass/_library.sass */
+/* line 74, ../sass/_library.sass */
 .rectangle-content {
   padding: 1rem;
   position: relative;
@@ -2717,18 +2713,18 @@ nav a:hover {
   font-size: 1rem;
   line-height: 1.2;
 }
-/* line 81, ../sass/_library.sass */
+/* line 80, ../sass/_library.sass */
 .rectangle-content span {
   width: calc(100% - 2.5rem);
   display: inline-block;
 }
-/* line 84, ../sass/_library.sass */
+/* line 83, ../sass/_library.sass */
 .rectangle-content a {
   color: white;
   border: 0;
   padding: 0 !important;
 }
-/* line 88, ../sass/_library.sass */
+/* line 87, ../sass/_library.sass */
 .rectangle-content img {
   width: 2rem;
   position: absolute;
@@ -2736,42 +2732,42 @@ nav a:hover {
   right: 1rem;
 }
 
-/* line 94, ../sass/_library.sass */
+/* line 93, ../sass/_library.sass */
 .lagarta {
   background-image: url("../img/lagartavirapupa.png");
 }
 
-/* line 97, ../sass/_library.sass */
+/* line 96, ../sass/_library.sass */
 .lovenomatter {
   background-image: url("../img/lovenomatter.png");
 }
 
-/* line 100, ../sass/_library.sass */
+/* line 99, ../sass/_library.sass */
 .quandosintoque {
   background-image: url("../img/quandosintoque.png");
 }
 
-/* line 103, ../sass/_library.sass */
+/* line 102, ../sass/_library.sass */
 .emma {
   background-image: url("../img/emma.png");
 }
 
-/* line 106, ../sass/_library.sass */
+/* line 105, ../sass/_library.sass */
 .relatorio {
   background-image: url("../img/relatorio.png");
 }
 
-/* line 109, ../sass/_library.sass */
+/* line 108, ../sass/_library.sass */
 .mapasmentais {
   background-image: url("../img/mapamental.png");
 }
 
-/* line 112, ../sass/_library.sass */
+/* line 111, ../sass/_library.sass */
 .perestroika {
   background-image: url("../img/perestroika.png");
 }
 
-/* line 115, ../sass/_library.sass */
+/* line 114, ../sass/_library.sass */
 .caindonobrasil {
   background-image: url("../img/caindonobrasil.png");
 }
