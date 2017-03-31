@@ -1,12 +1,16 @@
 section.biblioteca
- .large-2
-  width: calc(16.66667% - 1rem) !important
- .large-3
-  width: calc(24.99999% - 1rem) !important
- .large-4
-  width: calc(33.33333% - 1rem) !important
- .large-6
-  width: calc(49.99999% - 1rem) !important
+ +breakpoint(small only)
+  .small-6
+   width: calc(49.99999% - 1rem) !important
+ +breakpoint(large)
+  .large-2
+   width: calc(16.66667% - 1rem) !important
+  .large-3
+   width: calc(24.99999% - 1rem) !important
+  .large-4
+   width: calc(33.33333% - 1rem) !important
+  .large-6
+   width: calc(49.99999% - 1rem) !important
 
 .square, .rectangle-cover
  margin: 1rem 0 0 1rem
