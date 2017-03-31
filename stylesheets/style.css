@@ -2364,32 +2364,27 @@ a {
 a:hover {
   color: #6a6799;
 }
-/* line 59, ../sass/_type.sass */
-a img {
-  height: 0.8rem;
-  margin-left: 0.5rem;
-}
 
-/* line 63, ../sass/_type.sass */
+/* line 60, ../sass/_type.sass */
 a.white {
   border-bottom: 1px solid white;
 }
 
-/* line 66, ../sass/_type.sass */
+/* line 63, ../sass/_type.sass */
 .italic {
   font-weight: 300;
   font-family: "Source Sans Pro";
   font-style: italic;
 }
 
-/* line 71, ../sass/_type.sass */
+/* line 68, ../sass/_type.sass */
 .code {
   color: #20bae3;
   font-family: "Cousine";
   font-size: 0.8rem;
 }
 
-/* line 76, ../sass/_type.sass */
+/* line 73, ../sass/_type.sass */
 .fa-angle-right {
   margin-left: 1rem;
 }
