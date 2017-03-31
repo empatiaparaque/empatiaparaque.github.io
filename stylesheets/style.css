@@ -2149,9 +2149,11 @@ body {
   }
 }
 
-/* line 36, ../sass/_quarks.sass */
-.force-square {
-  padding: 30% 0;
+@media screen and (min-width: 40em) {
+  /* line 36, ../sass/_quarks.sass */
+  .force-square {
+    padding: 30% 0;
+  }
 }
 
 /* line 1, ../sass/_type.sass */
